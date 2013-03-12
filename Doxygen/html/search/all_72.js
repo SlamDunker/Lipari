@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['reader_5fwriter',['Reader_Writer',['../class_reader___writer.html',1,'Reader_Writer'],['../class_reader___writer.html#ac34984526a561d8113317b621ebaa7cb',1,'Reader_Writer::Reader_Writer()']]],
+  ['rec',['rec',['../libreria_8h.html#a9e0992eae3950adccaf4847fbff4231dab162d660f6176b875efa91109b2cf9ce',1,'libreria.h']]],
+  ['rec_5fservice',['rec_service',['../class_register.html#abc8fdf3bcbd64e5f5bb4a2ac8684c426',1,'Register']]],
+  ['receive_5frequest',['receive_request',['../class_service.html#af77518e527f153f4bfc52572c6a11d7a',1,'Service']]],
+  ['receive_5fresponse',['receive_response',['../class_response.html#ae1e4e9e45bdad8cf8e05aa2ebb115036',1,'Response']]],
+  ['reg',['reg',['../image__provider_8cpp.html#a48ff5916d6e3574e88784e42f39864c8',1,'reg():&#160;image_provider.cpp'],['../storage__provider_8cpp.html#a48ff5916d6e3574e88784e42f39864c8',1,'reg():&#160;storage_provider.cpp']]],
+  ['register',['Register',['../class_register.html',1,'Register'],['../class_register.html#aa9759eccb391cd71151380c6de9f0e67',1,'Register::Register()']]],
+  ['registro_2ecpp',['registro.cpp',['../registro_8cpp.html',1,'']]],
+  ['registro_2eh',['registro.h',['../registro_8h.html',1,'']]],
+  ['req',['req',['../libreria_8h.html#a9e0992eae3950adccaf4847fbff4231da1cbc123f91f6737e5506973f4493e91c',1,'libreria.h']]],
+  ['request_5fservice',['request_service',['../class_register.html#aaa2f8cd6ffca89e262cbfb6ce2356125',1,'Register']]],
+  ['resp',['resp',['../class_service.html#a38a80bfc301cc5ed9dcbead7d6aaf8ca',1,'Service']]],
+  ['response',['Response',['../class_response.html',1,'Response'],['../class_response.html#aa9b6e391d77fce8daca8bac13730ec8e',1,'Response::Response()']]],
+  ['result',['result',['../libreria_8h.html#a937d4dd628a8858b443a399410d2600b',1,'libreria.h']]],
+  ['retrive',['retrive',['../class_servizi.html#a82d2ad93ed5dc951ee46eb5e7759a2a0',1,'Servizi']]],
+  ['richiesta_5flettura',['richiesta_lettura',['../class_reader___writer.html#a6c8dc9756ef7f5b8f01e985d75e00bb5',1,'Reader_Writer']]],
+  ['richiesta_5fscrittura',['richiesta_scrittura',['../class_reader___writer.html#a4e8115da8b985739325f30189655d22d',1,'Reader_Writer']]],
+  ['rotate',['Rotate',['../class_rotate.html',1,'Rotate'],['../class_rotate.html#afcb427982679ac367569ab7791058f02',1,'Rotate::Rotate()'],['../image__provider_8cpp.html#a4f300f22f12203ad670f9ebf5a30ae6f',1,'rotate():&#160;image_provider.cpp']]],
+  ['rw',['rw',['../service__register_8cpp.html#ab7189f53c52510b9c59d16576fb9cc6f',1,'rw():&#160;service_register.cpp'],['../storage__provider_8cpp.html#ab7189f53c52510b9c59d16576fb9cc6f',1,'rw():&#160;storage_provider.cpp']]]
+];

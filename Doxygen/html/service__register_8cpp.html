@@ -1,0 +1,326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Progetto Sisop: Riferimenti per il file File/service_register.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo_unipi.gif"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Progetto Sisop
+   </div>
+   <div id="projectbrief">Service Oriented Architecture</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Classi</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;dei&#160;file</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Ridefinizioni di tipo (typedef)</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Tipi enumerati (enum)</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valori del tipo enumerato</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Definizioni</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_54f88a2d082e9b64d69c556026a18486.html">File</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definizioni</a> &#124;
+<a href="#func-members">Funzioni</a> &#124;
+<a href="#var-members">Variabili</a>  </div>
+  <div class="headertitle">
+<div class="title">Riferimenti per il file service_register.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>service register che permette di registrare la corrispondenza tra servizio e service provider. Inoltre fornisce ai client tali corrispondenze. Per gestire le strutture dati interne utilizza una politica di locking lettori/scrittori  
+<a href="#details">Continua...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="registro_8h_source.html">registro.h</a>&quot;</code><br/>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
+Definizioni</h2></td></tr>
+<tr class="memitem:a0240ac851181b84ac374872dc5434ee4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>&#160;&#160;&#160;20</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
+Funzioni</h2></td></tr>
+<tr class="memitem:ae0f38b5967e30cbedce900eec1aa0b70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#ae0f38b5967e30cbedce900eec1aa0b70">libera</a> (int id)</td></tr>
+<tr class="memitem:ad6829c63ef6a58a02695146c1bf2dc34"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#ad6829c63ef6a58a02695146c1bf2dc34">th_body</a> (void *arg)</td></tr>
+<tr class="memitem:ae6fd4b57639456696868a900c3480e04"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#ae6fd4b57639456696868a900c3480e04">main</a> (int quanti, char *quali[])</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="var-members"></a>
+Variabili</h2></td></tr>
+<tr class="memitem:ab7189f53c52510b9c59d16576fb9cc6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_reader___writer.html">Reader_Writer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#ab7189f53c52510b9c59d16576fb9cc6f">rw</a></td></tr>
+<tr class="memitem:a9cde15c601455e65504b172dbbf67351"><td class="memItemLeft" align="right" valign="top">pthread_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#a9cde15c601455e65504b172dbbf67351">th</a> [<a class="el" href="storage__provider_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td></tr>
+<tr class="memitem:a925ae30b0957e8ef34834c909018919b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#a925ae30b0957e8ef34834c909018919b">th_arg</a> [<a class="el" href="storage__provider_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td></tr>
+<tr class="memitem:a87358f76ad73baa20c9c9e29b793ede3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#a87358f76ad73baa20c9c9e29b793ede3">sk</a> [<a class="el" href="storage__provider_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td></tr>
+<tr class="memitem:ac04a8ca21f93c3f90f313b097da04e09"><td class="memItemLeft" align="right" valign="top">sem_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#ac04a8ca21f93c3f90f313b097da04e09">thread_sem</a> [<a class="el" href="storage__provider_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td></tr>
+<tr class="memitem:a542dd5201a132d1d53c61b8e1dc21f32"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#a542dd5201a132d1d53c61b8e1dc21f32">occupati</a> [<a class="el" href="storage__provider_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td></tr>
+<tr class="memitem:ab401b56cf5fb5e26fdec335c015f5575"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#ab401b56cf5fb5e26fdec335c015f5575">thread_disponibili</a></td></tr>
+<tr class="memitem:ace91892b41d6929f6d6a6a2c1b8b5398"><td class="memItemLeft" align="right" valign="top">pthread_mutex_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#ace91892b41d6929f6d6a6a2c1b8b5398">thread_mutex</a></td></tr>
+<tr class="memitem:aaf4e5761b089833ce5f8060bdfcaca8e"><td class="memItemLeft" align="right" valign="top">pthread_cond_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#aaf4e5761b089833ce5f8060bdfcaca8e">thread_cond</a></td></tr>
+<tr class="memitem:a644266e8bf0cb6061d537869f0cd9739"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_servizi.html">Servizi</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="service__register_8cpp.html#a644266e8bf0cb6061d537869f0cd9739">service</a></td></tr>
+</table>
+<a name="details" id="details"></a><h2>Descrizione dettagliata</h2>
+<div class="textblock"><p>service register che permette di registrare la corrispondenza tra servizio e service provider. Inoltre fornisce ai client tali corrispondenze. Per gestire le strutture dati interne utilizza una politica di locking lettori/scrittori </p>
+</div><h2>Documentazione delle definizioni</h2>
+<a class="anchor" id="a0240ac851181b84ac374872dc5434ee4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define N&#160;&#160;&#160;20</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2>Documentazione delle funzioni</h2>
+<a class="anchor" id="ae0f38b5967e30cbedce900eec1aa0b70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void libera </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae6fd4b57639456696868a900c3480e04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>quanti</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>quali</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad6829c63ef6a58a02695146c1bf2dc34"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* th_body </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>arg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2>Documentazione delle variabili</h2>
+<a class="anchor" id="a542dd5201a132d1d53c61b8e1dc21f32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool occupati[<a class="el" href="storage__provider_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab7189f53c52510b9c59d16576fb9cc6f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_reader___writer.html">Reader_Writer</a> rw</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a644266e8bf0cb6061d537869f0cd9739"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_servizi.html">Servizi</a> service</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a87358f76ad73baa20c9c9e29b793ede3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int sk[<a class="el" href="storage__provider_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9cde15c601455e65504b172dbbf67351"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">pthread_t th[<a class="el" href="storage__provider_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a925ae30b0957e8ef34834c909018919b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int th_arg[<a class="el" href="storage__provider_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaf4e5761b089833ce5f8060bdfcaca8e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">pthread_cond_t thread_cond</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab401b56cf5fb5e26fdec335c015f5575"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int thread_disponibili</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ace91892b41d6929f6d6a6a2c1b8b5398"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">pthread_mutex_t thread_mutex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac04a8ca21f93c3f90f313b097da04e09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sem_t thread_sem[<a class="el" href="storage__provider_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Mer 1 Ago 2012 11:50:21 per Progetto Sisop da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.1.2
+</small></address>
+</body>
+</html>
